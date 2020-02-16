@@ -1,0 +1,272 @@
+.awesome-item {
+    padding-top: 108px;
+    padding-bottom: 105px;
+}
+
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 63px;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+
+.content {
+    text-align: center;
+    color: #86878b;
+    font-family: 'Open Sans ', sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.awesome-block-items {
+    max-width: 1100px;
+    padding-top: 81px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block-item {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+}
+
+.block-item:last-child {
+    margin-right: 0px;
+}
+
+.circle {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-icons {
+    color: #ff8b38;
+}
+
+.circle .fa-lightbulb-o {
+    font-size: 28px;
+}
+
+.circle .fa-keyboard-o {
+    font-size: 32.7px;
+}
+
+.circle .fa-bolt {
+    font-size: 31.3px;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.pricing {
+    background-color: #f5f5f5;
+    padding-top: 108px;
+    padding-bottom: 96px;
+}
+
+.pricing-blocks {
+    max-width: 1140px;
+    display: flex;
+    margin: 0 -20px;
+    padding-top: 81px;
+}
+
+.pricing-block {
+    flex: 33.3%;
+    padding: 0 20px;
+    align-self: flex-end;
+}
+
+.prising-header {
+    background-color: #333333;
+}
+
+.name {
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.value {
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 94px;
+}
+
+.value p::first-letter {
+    font-size: 35px;
+}
+
+.info {
+    padding: 17px 0;
+    text-align: center;
+    color: #666666;
+    border-bottom: 5px solid #ff8b38;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.pricing-body {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.advertising {
+    padding: 13px 0;
+    text-align: center;
+    background-color: #ff8b38;
+    color: #ffffff;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+li {
+    padding: 14px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f5f5f5;
+    font-family: 'Open sans Regular', sans-serif;
+    font-size: 14px;
+    color: #95969a;
+    text-transform: uppercase;
+}
+
+.custom-block {
+    padding: 74px 0 63px;
+    background: url(../images/picture1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.custom-block h2 {
+    color: #ffffff;
+}
+
+.custom-block h2::after {
+    border-bottom: 2px solid #ffffff;
+}
+
+.custom-block p {
+    color: #bfc3c2;
+    padding-bottom: 33px;
+    font-family: 'Raleway light', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: unset;
+    margin: auto;
+    height: 38px;
+    width: 131px;
+}
+
+.footer {
+    background-color: #000000;
+    padding-top: 38px;
+    padding-bottom: 15px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons .fa-facebook {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 23px;
+}
+
+.icons .fa-twitter {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 17px;
+}
+
+.icons .fa-google-plus-g {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.icons .fa-pinterest {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 21px;
+}
+
+.icons .fa-instagram {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 21px;
+}
+
+.icons .fa-stumbleupon {
+    padding-right: 32px;
+    color: #cccccc;
+    font-size: 21px;
+}
+
+.icons .fa-rss {
+    color: #cccccc;
+    font-size: 19px;
+}
+
+.end {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #afafaf;
+}
