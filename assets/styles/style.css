@@ -1,0 +1,301 @@
+  @font-face {
+      font-family: 'Myriad Pro Regular';
+      src: url('MyriadPro-Regular.eot');
+      src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  .awesome-item {
+      padding-top: 108px;
+      padding-bottom: 105px;
+  }
+  
+  .container {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .title {
+      position: relative;
+      font-family: 'Raleway', sans-serif;
+      font-size: 36px;
+      text-align: center;
+      color: #212121;
+      margin: 0;
+      padding-top: 0px;
+      padding-bottom: 63px;
+  }
+  
+  .title:after {
+      position: absolute;
+      content: '';
+      display: block;
+      border-bottom: 2px solid #ff8b38;
+      width: 64px;
+      right: 518px;
+      left: 518px;
+      padding-top: 30px;
+  }
+  
+  .content {
+      text-align: center;
+      color: #86878b;
+      font-family: 'Open Sans regular', sans-serif;
+      line-height: 20px;
+      font-size: 14px;
+  }
+  
+  .awesome-block-items {
+      max-width: 1100px;
+      padding-top: 81px;
+  }
+  
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  .block-item {
+      float: left;
+      width: 31%;
+      margin-right: 3.5%;
+  }
+  
+  .block-item:last-child {
+      float: left;
+      width: 31%;
+      margin-right: 0px;
+  }
+  
+  .circle {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      border: 2px solid#ff8b38;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .fa-lightbulb-o {
+      color: #ff8b38;
+      font-size: 28px;
+  }
+  
+  .fa-keyboard-o {
+      color: #ff8b38;
+      font-size: 32.7px;
+  }
+  
+  .fa-bolt {
+      color: #ff8b38;
+      font-size: 31.3px;
+  }
+  
+  .subtitle {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      line-height: 20px;
+      font-size: 24px;
+      padding-top: 30px;
+      padding-bottom: 25px;
+  }
+  
+  .pricing {
+      background-color: #f5f5f5;
+      padding-top: 108px;
+      padding-bottom: 96px;
+  }
+  
+  .pricing-blocks {
+      max-width: 1140px;
+      display: flex;
+      flex-direction: row;
+      margin: 0 -20px;
+      padding-top: 81px;
+  }
+  
+  .pricing-block {
+      flex: 33.3%;
+      padding: 0 20px;
+      align-self: flex-end;
+  }
+  
+  .prising-header {
+      background-color: #333333;
+  }
+  
+  .name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 59px;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      line-height: 20px;
+      font-size: 24px;
+  }
+  
+  .value {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: #ffffff;
+      height: 99px;
+      border-bottom: 1px solid #ffffff;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 94px;
+  }
+  
+  .value p::first-letter {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+  }
+  
+  .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666666;
+      height: 50px;
+      border-bottom: 5px solid #ff8b38;
+      font-family: 'Open Sans semibold', sans-serif;
+      font-size: 14px;
+      font-style: italic;
+  }
+  
+  .pricing-body {
+      background-color: #ffffff;
+  }
+  
+  .advertising {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ff8b38;
+      color: #ffffff;
+      height: 35px;
+      font-family: 'Open sans', sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+  }
+  
+  li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+      height: 40px;
+      border-bottom: 1px solid #f5f5f5;
+      font-family: 'Open sans Regular', sans-serif;
+      font-size: 14px;
+      color: #95969a;
+      text-transform: uppercase;
+  }
+  
+  .custom-block {
+      padding: 74px 0 63px;
+      background: url(../images/picture1.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  .custom-block h2 {
+      color: #ffffff;
+  }
+  
+  .custom-block h2::after {
+      border-bottom: 2px solid #ffffff;
+  }
+  
+  .custom-block p {
+      color: #bfc3c2;
+      padding-bottom: 33px;
+      font-family: 'Raleway light', sans-serif;
+      font-size: 16px;
+  }
+  
+  button {
+      display: block;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      background-color: unset;
+      margin: auto;
+      height: 38px;
+      width: 131px;
+  }
+  
+  .footer {
+      background-color: #000000;
+      padding-top: 38px;
+      padding-bottom: 15px;
+  }
+  
+  .icons {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex: 33.3%;
+  }
+  
+  .fa-facebook {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 23px;
+  }
+  
+  .fa-twitter {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 17px;
+  }
+  
+  .fa-google-plus-g {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 20px;
+  }
+  
+  .fa-pinterest {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 21px;
+  }
+  
+  .fa-instagram {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 21px;
+  }
+  
+  .fa-stumbleupon {
+      padding-right: 32px;
+      color: #cccccc;
+      font-size: 21px;
+  }
+  
+  .fa-rss {
+      color: #cccccc;
+      font-size: 19px;
+  }
+  
+  .end {
+      text-align: center;
+      font-family: 'Open Sans regular', sans-serif;
+      font-size: 12px;
+      padding-top: 15px;
+      color: #afafaf;
+  }
